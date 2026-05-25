@@ -21,7 +21,7 @@ options:
 (c)Ivaylo Vasilev
 ```
 
-The option `-f, --urls-file` accept a text file with a list of URLs. Each line ***must*** start with **http** or **https** respectively for the sript to treat it as a **valid URL**. Lines with ***#*** will be ignored as well as URLs that do not follow the proper schema.
+The option `-f, --urls-file` accepts a text file with a list of URLs. Each line ***must*** start with **http** or **https** respectively for the sript to treat it as a **valid URL**. Lines with ***#*** will be ignored as well as URLs that do not follow the proper schema.
 
 **Example list of URLs:**
 
