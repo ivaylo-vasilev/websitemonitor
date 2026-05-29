@@ -1,5 +1,13 @@
 #!/usr/bin/env python3
 
+##############################
+# website monitor #
+# =============== #
+# Monitor the status of a single website or a list of websites from the terminal
+# Copyright (c)2026 Ivaylo Vasilev. Released under the MIT License; see LICENSE for details.
+# Author: Ivaylo Vasilev
+##############################
+
 import requests
 from colorama import init, Fore
 import argparse
@@ -8,7 +16,6 @@ import sys
 import os
 
 # up and running state (status code): 200 <= code < 400
-# use a timer and a while true loop with keyboard_interrupt
 
 # setting up the colors
 init(autoreset=True)
